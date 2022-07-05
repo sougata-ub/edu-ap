@@ -1,0 +1,14 @@
+{
+  "1": {"model": "roberta-base", "loss_penalty":  "one", "context": "none"},
+  "2": {"model": "roberta-base", "loss_penalty":  "one", "context": "prompt"},
+  "3": {"model": "roberta-base", "loss_penalty":  "one", "context": "left"},
+  "4": {"model": "roberta-base", "loss_penalty":  "one", "context": "all"},
+  "5": {"model": "roberta-base", "loss_penalty":  "none", "context": "none"},
+  "6": {"model": "roberta-base", "loss_penalty":  "none", "context": "prompt"},
+  "7": {"model": "roberta-base", "loss_penalty":  "none", "context": "left"},
+  "8": {"model": "roberta-base", "loss_penalty":  "none", "context": "all"},
+  "9": {"model": "roberta-base", "loss_penalty":  "both", "context": "none"},
+  "10": {"model": "roberta-base", "loss_penalty":  "both", "context": "prompt"},
+  "11": {"model": "roberta-base", "loss_penalty":  "both", "context": "left"},
+  "12": {"model": "roberta-base", "loss_penalty":  "both", "context": "all"}
+}
