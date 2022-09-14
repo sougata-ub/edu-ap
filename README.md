@@ -26,4 +26,19 @@ python -m torch.distributed.run --nnodes=1 --nproc_per_node=4 --master_port 9999
 ```
 Prior to training, please download the PE dataset into a folder named `./data/`, and run NeuralEDUSeg on the data to generate the EDUs.
 
-
+## Citation
+If you are using this library then do cite: 
+```bibtex
+@inproceedings{saha-etal-2022-edu-ap,
+    title = "EDU-AP: Elementary Discourse Unit based Argument Parser",
+    author = "Saha, Sougata  and
+      Das, Souvik  and
+      Srihari, Rohini",
+    booktitle = "Proceedings of the 23rd Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = sep,
+    year = "2022",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sigdial-1.19",
+    pages = "183--192"
+}
+```
